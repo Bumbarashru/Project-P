@@ -4,13 +4,6 @@ using UnityEngine.InputSystem;
 
 public class ButtonManager : MonoBehaviour
 {
-    private void Update()
-    {
-        if (Keyboard.current.escapeKey.wasReleasedThisFrame)
-        {
-            ExitTheGame();
-        }
-    }
     public void EnablePanel(GameObject panel)
     {
         panel.SetActive(true);
@@ -26,5 +19,12 @@ public class ButtonManager : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+    private void Update()
+    {
+        if (Keyboard.current.escapeKey.wasReleasedThisFrame)
+        {
+            ExitTheGame();
+        }
     }
 }
