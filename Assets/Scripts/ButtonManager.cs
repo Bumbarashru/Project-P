@@ -1,6 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class ButtonManager : MonoBehaviour
     {
         panel.SetActive(false);
     }
+
+    public void SceneLoad(string nameScene)
+    {
+        SceneManager.LoadScene(nameScene);
+    }
+
     public void ExitTheGame()
     {
 #if UNITY_EDITOR

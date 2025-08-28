@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 001227008bcadbc4dbbd0033484bc269
+  - enabled: 1
+    path: Assets/Scenes/Tutorial's Scene/Tutorial.unity
+    guid: 8e60fb3b45d0d7c42b464e6e5aee9bdf
+  - enabled: 1
+    path: Assets/Scenes/Tutorial's Scene/Tutorial_PVE.unity
+    guid: 7db69566b3f56824683e6e4737d613b9
+  - enabled: 1
+    path: Assets/Scenes/Tutorial's Scene/Tutorial_PVP.unity
+    guid: 76a99e8b9b5b9b146bcd8640fa619fdf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
